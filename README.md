@@ -33,6 +33,13 @@ This repository contains two generations of calibration-free monocular 3D detect
 
 In file names and code, `v2` refers to UrbanOmniDetect-2 and `v1` to the paper model. The two sets of checkpoints are not interchangeable.
 
+## Android app (Kotlin)
+
+This repository also includes an Android image-inference app in [`android/`](android/). It targets
+the UrbanOmniDetect-2 v2-X ONNX export and draws COCO detections and projected road-user cuboids.
+See [`android/README.md`](android/README.md) for export, setup, and build instructions. Model
+weights and ONNX exports are not included.
+
 ## UrbanOmniDetect-2
 
 *Released September 2026. Developed and maintained by [Mehmet Kerem Turkcan](https://scholar.google.com/citations?user=306TgWoAAAAJ).*

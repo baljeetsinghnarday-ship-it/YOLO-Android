@@ -214,3 +214,10 @@ __marimo__/
 *.mov
 _work/
 runs/
+
+# Kotlin Android app build outputs and machine-specific settings
+android/.gradle/
+android/**/build/
+android/local.properties
+android/.idea/
+android/*.iml
